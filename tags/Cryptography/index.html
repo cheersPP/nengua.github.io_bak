@@ -151,7 +151,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    2 minutes read (About 351 words)
+                    4 minutes read (About 537 words)
                 </span>
                 
                 
@@ -166,6 +166,10 @@
         <div class="content">
             <h3 id="0x01"><a href="#0x01" class="headerlink" title="0x01"></a>0x01</h3><ul>
 <li><p>五元组（P,C,K,E,D）</p>
+<ul>
+<li>Plaintext</li>
+<li>Ciphertext</li>
+</ul>
 </li>
 <li><p>攻击模型</p>
 <ul>
@@ -189,7 +193,10 @@
 <li>类别<ul>
 <li>仿射密码<ul>
 <li>单表代换</li>
-<li>a=1，移位密码</li>
+<li>a=1，移位密码<ul>
+<li>若密钥以相同概率随机使用，则具有完善保密性</li>
+</ul>
+</li>
 <li>a=1，b=3，凯撒密码</li>
 <li>不能抵抗唯密文攻击，根据密文得到置换</li>
 </ul>
@@ -244,7 +251,44 @@
 <li>gcd最大公约数</li>
 <li>- </li>
 <li>可用分组密码生成密钥</li>
+</ul>
+</li>
 <li>本原多项式</li>
+</ul>
+</li>
+</ul>
+<h3 id="0x02"><a href="#0x02" class="headerlink" title="0x02"></a>0x02</h3><ul>
+<li><p>密码体系安全性的评判</p>
+<ul>
+<li><p>计算安全性</p>
+</li>
+<li><p>可证明</p>
+<ul>
+<li>归约</li>
+</ul>
+</li>
+<li><p>无条件安全</p>
+<ul>
+<li>提供无限计算资源也无法被攻破</li>
+<li>完善保密性<ul>
+<li>不能通过密文得到明文</li>
+<li>先验概率= 后验概率<ul>
+<li>先验概率，如全概率；后验概率，如贝叶斯公式</li>
+</ul>
+</li>
+<li>|K|&gt;=|C|&gt;= |P|，单射</li>
+<li>证明一次一密不可破解<ul>
+<li>假设|K|=|C|=|P|，该密码体制是完善保密的，当且仅当密钥使用概率都是1/|K|,且PC存在唯一密钥，使得ek(x)=y</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>dk1(y)=x 且 dk2(y)=x 不能确定k1 = k2</p>
+<ul>
+<li>仿射</li>
+<li>playfair密码</li>
 </ul>
 </li>
 </ul>
@@ -334,7 +378,7 @@
                     </p>
                     <a href="/tags">
                         <p class="title has-text-weight-normal">
-                            2
+                            3
                         </p>
                     </a>
                 </div>
@@ -447,7 +491,7 @@
         <h3 class="menu-label">
             Tag Cloud
         </h3>
-        <a href="/tags/Cryptography/" style="font-size: 10px;">Cryptography</a> <a href="/tags/Cyber-Security/" style="font-size: 20px;">Cyber Security</a>
+        <a href="/tags/Cryptography/" style="font-size: 10px;">Cryptography</a> <a href="/tags/Cyber-Security/" style="font-size: 10px;">Cyber Security</a> <a href="/tags/job/" style="font-size: 10px;">job</a>
     </div>
 </div>
     
@@ -462,16 +506,16 @@
         
         <article class="media">
             
-            <a href="/2020/03/08/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" class="media-left">
+            <a href="/2020/03/31/%E6%B7%B1%E4%BF%A1%E6%9C%8Dweb%E8%BF%90%E8%90%A5/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="渗透测试">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="深信服-web运营">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-08T14:10:39.000Z">2020-03-08</time></div>
-                    <a href="/2020/03/08/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" class="title has-link-black-ter is-size-6 has-text-weight-normal">渗透测试</a>
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-31T07:20:39.000Z">2020-03-31</time></div>
+                    <a href="/2020/03/31/%E6%B7%B1%E4%BF%A1%E6%9C%8Dweb%E8%BF%90%E8%90%A5/" class="title has-link-black-ter is-size-6 has-text-weight-normal">深信服-web运营</a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -562,7 +606,14 @@
                 <div class="control">
                     <a class="tags has-addons" href="/tags/Cyber-Security/">
                         <span class="tag">Cyber Security</span>
-                        <span class="tag is-grey">2</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/job/">
+                        <span class="tag">job</span>
+                        <span class="tag is-grey">1</span>
                     </a>
                 </div>
                 
@@ -590,16 +641,16 @@
         
         <article class="media">
             
-            <a href="/2020/03/08/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" class="media-left">
+            <a href="/2020/03/31/%E6%B7%B1%E4%BF%A1%E6%9C%8Dweb%E8%BF%90%E8%90%A5/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="渗透测试">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="深信服-web运营">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-08T14:10:39.000Z">2020-03-08</time></div>
-                    <a href="/2020/03/08/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" class="title has-link-black-ter is-size-6 has-text-weight-normal">渗透测试</a>
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-31T07:20:39.000Z">2020-03-31</time></div>
+                    <a href="/2020/03/31/%E6%B7%B1%E4%BF%A1%E6%9C%8Dweb%E8%BF%90%E8%90%A5/" class="title has-link-black-ter is-size-6 has-text-weight-normal">深信服-web运营</a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -690,7 +741,14 @@
                 <div class="control">
                     <a class="tags has-addons" href="/tags/Cyber-Security/">
                         <span class="tag">Cyber Security</span>
-                        <span class="tag is-grey">2</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/job/">
+                        <span class="tag">job</span>
+                        <span class="tag is-grey">1</span>
                     </a>
                 </div>
                 
